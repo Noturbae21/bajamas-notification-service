@@ -1,5 +1,5 @@
 # 1. Menggunakan image resmi PHP 8.2 + Apache
-FROM php:8.2-apache
+FROM php:8.3-apache
 
 # 2. Install dependensi sistem dan ekstensi PHP yang dibutuhkan Laravel & Redis
 RUN apt-get update && apt-get install -y \
